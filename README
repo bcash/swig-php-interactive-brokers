@@ -1,0 +1,24 @@
+Interactive Brokers API PHP Wrapper using SWIG
+
+REQUIREMENTS
+
+  CMAKE 2.8
+  BASH (Tested with 4.2)
+  GCC (Tested with 4.6)
+
+INSTALLATION
+
+Before running cmake, its necessary to execute the download script in the scripts directory.
+This script will download the InteractiveBrokersAPI from the Interactive Brokers website.
+
+  $sh download.sh <APIversion>
+
+As of this writing the current version is 966. 
+
+  $cmake .
+  $make
+
+The above commands will create the library. The next step is to copy the library to the php modules
+directory and enable the extension in php.ini.
+
+To test if everything went well start the TWS application and run the connect test.
