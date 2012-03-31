@@ -8,8 +8,7 @@ REQUIREMENTS
 
 INSTALLATION
 
-Before running cmake its necessary to execute the download script in the scripts directory.
-This script will download the InteractiveBrokersAPI from the Interactive Brokers website.
+Before running cmake its necessary to execute the download script in the scripts directory. The script will download the InteractiveBrokersAPI from the Interactive Brokers website.
 
   $sh download.sh <APIversion>
 
